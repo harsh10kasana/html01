@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+.navbaar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+.navelements {
+  color: black;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  color: black;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logopic {
+  background-image: url("BOOK\ MY\ TRIP2.png");
+  background-size: cover;
+  width: 200px;
+  height: 60px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  transition-property: all;
+  transition-duration: 0.2s;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.nav a:hover {
+  color: midnightblue;
+  border-width: 0;
+  border-bottom: 1.5px;
+  border-radius: 1px;
+  border-style: solid;
+
+  border-color: midnightblue;
+}
+
+.section {
+  width: 100%;
+  height: 1000px;
+  background-image: url("bk.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 70px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.inputtext {
+  width: 80%;
+  height: 40px;
+  font-size: 20px;
+
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.inputbutton {
+  width: 40px;
+  height: 43px;
+  background-color: rgb(82, 194, 238);
+  color: white;
+  border-color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  padding-left: 8px;
+}
+.inputbutton:hover {
+  background-color: rgb(2, 138, 249);
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(3, 201, 250);
+}
+.links a {
+  color: black;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+  height: 100px;
+  background-color: rgb(193, 233, 249);
+}
+.links a:hover {
+  border-width: 0px;
+  border-bottom: 2px;
+  border-color: darkblue;
+  border-style: solid;
+  color: darkblue;
+}
+
+.tdtext {
+  padding: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.td1 {
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.td2 {
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.d1 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(67, 64, 64, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d2 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d3 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d21 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d22 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d23 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-card {
+  background-image: url("chennai.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+.img1 {
+  background-image: url(m.webp);
+  background-size: cover;
+}
+.img2 {
+  background-image: url(p.avif);
+  background-size: cover;
+}
+.img3 {
+  background-image: url(b.jpg);
+  background-size: cover;
+}
+.img4 {
+  background-image: url(s.jpg);
+  background-size: cover;
+}
+.img5 {
+  background-image: url(t.webp);
+  background-size: cover;
+}
+.img6 {
+  background-image: url(v.webp);
+  background-size: cover;
+}
+.but{
+  margin: 20px;
+  height: 40px;
+  width: 90px;
+  border-radius: 15px;
+  border:none;
+  background-color: rgb(151, 219, 245);
+  font-size: 15px;
+}
+.but:hover{
+  background-color: rgb(247, 249, 249);
+  border-style: solid;
+  border-width: 3px;
+  border-color: skyblue;
+  color: rgb(95, 204, 247);
+}
